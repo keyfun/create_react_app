@@ -1,0 +1,1 @@
+docker build -t keyfun/create-react-app .

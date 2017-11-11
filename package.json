@@ -1,0 +1,28 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "react": "^16.1.0",
+    "react-autosuggest": "^9.3.2",
+    "react-dom": "^16.1.0",
+    "react-ga": "^2.3.5",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.11",
+    "react-youtube": "^7.5.0",
+    "redux": "^3.7.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.0"
+  }
+}
