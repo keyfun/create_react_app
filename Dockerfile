@@ -9,7 +9,7 @@ WORKDIR /usr/src/app/
 # Install dependencies
 COPY package.json /usr/src/app/
 RUN npm install --silent
-RUN npm install -g serve
+RUN npm install --silent -g serve
 
 ADD . /usr/src/app/
 
